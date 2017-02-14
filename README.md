@@ -1,7 +1,9 @@
 # aztekweb.workflows
 Helpful workflows for Umbraco Forms
 
-1. HTML encoding email bodies
+
+- SendEncodedEmail
+	-  Use this in place of the standard SendEmail workflow to HTML encode the user's input.  This will will prevent markup and script from being rendered in the email client.  The original user input is saved as-is (unless modified by another workflow).
 
 **General Links**
 
